@@ -34,7 +34,7 @@ const { Content } = await post.render();
 {
   // Render a split-width page layout
   post.data.style.template === "split" && (
-    <PageLayoutSplit {...post.data}>
+    <PageLayoutSplit {...get.data}>
       <div class="richtext">
         <Content />
       </div>
